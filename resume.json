@@ -2,11 +2,11 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Quentin Dequippe",
-    "label": "Geek // Freelance // Symfony Consultant",
+    "label": "Freelance Symfony Consultant",
     "email": "quentin@dequippe.tech",
     "phone": "(+33) 6 20 30 16 68",
     "url": "https://dequippe.tech",
-    "summary": "",
+    "summary": "Freelance Web Developper PHP/Symfony. Creator of Jobbsy and open source enthusiast",
     "location": {
       "city": "Nice",
       "countryCode": "FR"

@@ -23,7 +23,7 @@ jobs:
 #              run: npx resume export build/index.html --format html --theme jsonresume-theme-short
               run: |
                 npx resume export build/index.html --format html
-                npx resume export build/quentin_dequippe_resume.pdf --format pdf --theme jsonresume-theme-onepage
+                npx resume export build/quentin_dequippe_resume.pdf --format pdf --theme jsonresume-theme-paper
 
             - name: Upload artifact
               uses: actions/upload-pages-artifact@v1

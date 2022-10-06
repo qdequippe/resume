@@ -20,17 +20,17 @@ jobs:
               run: npm install
 
             - name: Build resume for Github Pages
-              run: npx resume export public/index.html --format html --theme jsonresume-theme-short
+              run: npx resume export build/index.html --format html --theme jsonresume-theme-short
 
             - name: Upload artifact
               uses: actions/upload-pages-artifact@v1
               with:
-                path: ./public
+                path: ./build
 
     deploy:
         environment:
-              name: github-pages
-              url: ${{ steps.deployment.outputs.page_url }}
+            name: github-pages
+            url: ${{ steps.deployment.outputs.page_url }}
         runs-on: ubuntu-latest
         needs: build
         steps:

@@ -20,12 +20,12 @@ jobs:
               run: npm install
 
             - name: Build resume for Github Pages
-              run: npx resume export index.html --format html --theme jsonresume-theme-short
+              run: npx resume export public/index.html --format html --theme jsonresume-theme-short
 
             - name: Upload artifact
               uses: actions/upload-pages-artifact@v1
               with:
-                path: index.html
+                path: ./public
 
     deploy:
         environment:

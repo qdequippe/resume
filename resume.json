@@ -2,29 +2,36 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Quentin Dequippe",
-    "label": "Programmer",
+    "label": "Geek // Freelance // Symfony Consultant",
     "image": "",
     "email": "quentin@dequippe.tech",
-    "phone": "(912) 555-4321",
-    "url": "http://richardhendricks.example.com",
-    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinal!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
+    "phone": "(+33) 6 20 30 16 68",
+    "url": "https://dequippe.tech",
+    "summary": "",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "Nice",
+      "countryCode": "FR"
     },
     "profiles": [
       {
         "network": "Twitter",
-        "username": "neutralthoughts",
-        "url": ""
+        "username": "qdequippe",
+        "url": "https://twitter.com/qdequippe"
       },
       {
-        "network": "SoundCloud",
-        "username": "dandymusicnl",
-        "url": "https://soundcloud.example.com/dandymusicnl"
+        "network": "Linkedin",
+        "username": "qdequippe",
+        "url": "https://www.linkedin.com/in/qdequippe"
+      },
+      {
+        "network": "Github",
+        "username": "qdequippe",
+        "url": "https://github.com/qdequippe"
+      },
+      {
+        "network": "Stackoverflow",
+        "username": "qdequippe",
+        "url": "https://stackoverflow.com/users/10353962/qdequippe"
       }
     ]
   },
@@ -45,19 +52,6 @@
       ]
     }
   ],
-  "volunteer": [
-    {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "url": "http://coderdojo.example.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Global movement of free coding clubs for young people.",
-      "highlights": [
-        "Awarded 'Teacher of the Month'"
-      ]
-    }
-  ],
   "education": [
     {
       "institution": "University of Oklahoma",
@@ -71,23 +65,6 @@
         "DB1101 - Basic SQL",
         "CS2011 - Java Introduction"
       ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014-11-01",
-      "awarder": "Techcrunch",
-      "summary": "There is no spoon."
-    }
-  ],
-  "publications": [
-    {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014-10-01",
-      "url": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
     }
   ],
   "skills": [

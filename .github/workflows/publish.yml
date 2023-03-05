@@ -19,11 +19,11 @@ jobs:
             - name: Install Node dependencies
               run: npm install
 
-            - name: Build resume for Github Pages
-#              run: npx resume export build/index.html --format html --theme jsonresume-theme-short
-              run: |
-                npx resume export build/index.html --format html
-                npx resume export build/quentin_dequippe_resume.pdf --format pdf --theme @qdequippe/jsonresume-theme-paper
+            - name: Build resume HTML for Github Pages
+              run: npx resume export build/index.html --format html
+
+            - name: Build resume PDF for Github Pages
+              run: npx resume export build/quentin_dequippe_resume.pdf --format pdf --theme @qdequippe/jsonresume-theme-paper
 
             - name: Upload artifact
               uses: actions/upload-pages-artifact@v1

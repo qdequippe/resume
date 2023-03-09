@@ -1,197 +1,210 @@
 {
-  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
-  "basics": {
-    "name": "Quentin Dequippe",
-    "label": "Freelance Symfony Consultant",
-    "email": "quentin@dequippe.tech",
-    "phone": "(+33) 6 20 30 16 68",
-    "url": "https://dequippe.tech",
-    "summary": "Freelance Web Developper PHP/Symfony. Creator of Jobbsy and open source enthusiast",
-    "location": {
-      "city": "Nice",
-      "postalCode": "06200",
-      "countryCode": "FR"
+    "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+    "basics": {
+        "name": "Quentin Dequippe",
+        "label": "Freelance Symfony Consultant",
+        "email": "quentin@dequippe.tech",
+        "phone": "(+33) 6 20 30 16 68",
+        "url": "https://dequippe.tech",
+        "summary": "Freelance Web Developper PHP/Symfony. Creator of Jobbsy and open source enthusiast",
+        "location": {
+            "city": "Nice",
+            "postalCode": "06200",
+            "countryCode": "FR"
+        },
+        "profiles": [
+            {
+                "network": "Twitter",
+                "username": "qdequippe",
+                "url": "https://twitter.com/qdequippe"
+            },
+            {
+                "network": "Linkedin",
+                "username": "qdequippe",
+                "url": "https://www.linkedin.com/in/qdequippe"
+            },
+            {
+                "network": "Github",
+                "username": "qdequippe",
+                "url": "https://github.com/qdequippe"
+            },
+            {
+                "network": "Stackoverflow",
+                "username": "qdequippe",
+                "url": "https://stackoverflow.com/users/10353962/qdequippe"
+            }
+        ]
     },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "qdequippe",
-        "url": "https://twitter.com/qdequippe"
-      },
-      {
-        "network": "Linkedin",
-        "username": "qdequippe",
-        "url": "https://www.linkedin.com/in/qdequippe"
-      },
-      {
-        "network": "Github",
-        "username": "qdequippe",
-        "url": "https://github.com/qdequippe"
-      },
-      {
-        "network": "Stackoverflow",
-        "username": "qdequippe",
-        "url": "https://stackoverflow.com/users/10353962/qdequippe"
-      }
-    ]
-  },
-  "work": [
-    {
-      "name": "Silae",
-      "position": "Lead Développeur PHP/Symfony",
-      "url": "https://www.silae.fr/",
-      "startDate": "2022-06",
-      "summary": "Silae propose des solutions pour simplifier la gestion de la paie, des RH et pour dématérialiser les documents.",
-      "highlights": [
-        "Renfort de l'équipe technique",
-        "Migration Symfony 4 vers version supérieur",
-        "Communication avec APIs Silae",
-        "Mise en place de bonnes pratiques, qualité de code, tests",
-        "Technologies utilisées : PHP7, Symfony4, MySQL, Azure"
-      ]
-    },
-    {
-      "name": "Egerie",
-      "position": "Développeur PHP/Symfony",
-      "url": "https://egerie.eu",
-      "startDate": "2022-03",
-      "endDate": "2022-06",
-      "summary": "EGERIE est l’éditeur leader du pilotage des risques cyber en Europe.",
-      "highlights": [
-        "Renfort de l'équipe technique",
-        "Développeur de nouvelles fonctionnalités",
-        "Amélioration des performances de l'outil",
-        "Intégration d'outils pour la qualité de code",
-        "Technologies utilisées : PHP7, Symfony5, MySQL, ReactJS, Agile"
-      ]
-    },
-    {
-      "name": "Scoplan",
-      "position": "Développeur PHP/Symfony",
-      "url": "https://www.scoplan.com/",
-      "startDate": "2021-09",
-      "endDate": "2021-12",
-      "summary": "Scoplan est le logiciel de nouvelle génération pour les constructeurs, maîtres d'oeuvre et promoteurs.",
-      "highlights": [
-        "Migration progressive Symfony 2 vers Symfony 4 au sein d'une équipe de freelance.",
-        "Technologies utilisées : PHP7, Symfony2 et Symfony4, MySQL"
-      ]
-    },
-    {
-      "name": "DSO Expertise Comptable",
-      "position": "Développeur PHP/Symfony",
-      "url": "https://www.dso.fr",
-      "startDate": "2020-07",
-      "endDate": "2021-07",
-      "summary": "Développement sur un outil de gestion interne type intranet.",
-      "highlights": [
-        "Connexion avec outil comptable SQL Server",
-        "Intégration/création de composants javascript (Vue.js, Stimulus, vanilla js) avec communication client/serveur",
-        "Technologies utilisées : PHP, Symfony, PostgreSQL, Vue.js"
-      ]
-    },
-    {
-      "name": "Nice-Matin",
-      "position": "Développeur PHP/Symfony",
-      "url": "https://www.nicematin.com/",
-      "startDate": "2020-01",
-      "endDate": "2020-07",
-      "highlights": [
-        "Renfort du pole technique, création/amélioration de certaines fonctionnalités sur les sites publics et abonnés, mise en place d’automatisation.",
-        "Développements sur le site nicematin.com entre autres l’ajout de modules publicitaires, refonte de la homepage.",
-        "Développement sur l’espace abonnés NM+ entre autres création de modules React pour l’affichage d’articles, d’un service de vote via API Rest.",
-        "Mise en place de la CI/CD sur Github Action.",
-        "Technologies utilisées : PHP, Symfony, MySQL, React JS"
-      ]
-    },
-    {
-      "name": "Wenity",
-      "position": "Co-fondateur & CTO",
-      "url": "https://wenity.fr/",
-      "startDate": "2013-11",
-      "endDate": "2019-09",
-      "summary": "Wenity est une plateforme de gestion et d’animation de communautés en mode SaaS, le tout en marque blanche pour ses clients. Wenity comprend tous les outils qu’une communauté ou une association a besoin, gestion des membres, des cotisations (avec paiement en ligne), de la partie événementiel et bien d’autres mais aussi un espace membre et un site vitrine personnalisable.",
-      "highlights": [
-        "Développement de la plateforme technique, PHP/Symfony avec Twig pour le moteur de template. Du javascript (ES6) pour le côté front et l’amélioration de l’UX/UI",
-        "Mise en place de l’infra sur AWS",
-        "Intégration d’outils de paiement comme Stripe. D’outils externes d’envoi d’emails (Mailjet), d’envoi de SMS (AllMySMS). D’outils de recherche avancée en utilisant Algolia (pour l’annuaire des membres)",
-        "Mise en place d’un système de worker en lien avec un système de queue (AWS SQS) permettant d’effectuer des tâches lourdes ou des tâches asynchrones (envoi d’email, envoi de SMS, génération de PDF …)",
-        "Mise en place d’outils de CI (Bitbucket Pipelines reposant sur Docker)",
-        "Gestion du produit (relations clients, relations partenaires…) et d’une équipe allant jusqu’à 4 développeurs et 2 UX/UI"
-      ]
-    },
-    {
-      "name": "AMISCO SUP Prozone",
-      "position": "Apprenti",
-      "startDate": "2013-11",
-      "endDate": "2014-09",
-      "highlights": [
-        "Apprentissage du rôle de responsable fonctionnel dans le suivi de projet imagerie et multimédia",
-        "Apprentissage de l’existant technique (Algorithmes, traitement d’images, développement vidéo/multimédia)",
-        "Apprentissage de l’existant métier (Clients, Méthodologie AGILE, Delivery d’étapes)",
-        "Expertise technique en vue de la récolte des besoins, définition du cahier des charges, suivi des développements, définition des plans de tests et validation de projets",
-        "Adaptation de l’ensemble des algorithmes de traitement d’image du monde footballistique vers le Hockey sur Glace (Adaptations mathématiques, des algorithmes de Bouthier, …)",
-        "Implémentation du modèle de données prédictif",
-        "Instanciation des algorithmes en temps réel embarqués (Application mobile)"
-      ]
+    "work": [
+        {
+            "name": "Tiime",
+            "position": "Développeur PHP/Symfony - Tiime Expert",
+            "url": "https://tiime.fr/",
+            "startDate": "2022-12",
+            "summary": "Tiime est ensemble d'outils de dernière génération allant de la pré-compta jusqu’à la liasse pour des experts-comptables à la pointe.",
+            "highlights": [
+                "Renfort de l'équipe technique sur le logiciel Tiime Expert",
+                "Développements de fonctionnalités avec des forts volumes de données",
+                "Communication avec APIs externes comme Teledec",
+                "Technologies utilisées : PHP8, Symfony5, PostgreSQL"
+            ]
+        },
+        {
+            "name": "Silae",
+            "position": "Lead Développeur PHP/Symfony",
+            "url": "https://www.silae.fr/",
+            "startDate": "2022-06",
+            "summary": "Silae propose des solutions pour simplifier la gestion de la paie, des RH et pour dématérialiser les documents.",
+            "highlights": [
+                "Renfort de l'équipe technique",
+                "Migration Symfony 4 vers version supérieur",
+                "Communication avec APIs Silae",
+                "Mise en place de bonnes pratiques, qualité de code, tests",
+                "Technologies utilisées : PHP7, Symfony4, MySQL, Azure"
+            ]
+        },
+        {
+            "name": "Egerie",
+            "position": "Développeur PHP/Symfony",
+            "url": "https://egerie.eu",
+            "startDate": "2022-03",
+            "endDate": "2022-06",
+            "summary": "EGERIE est l’éditeur leader du pilotage des risques cyber en Europe.",
+            "highlights": [
+                "Renfort de l'équipe technique",
+                "Développeur de nouvelles fonctionnalités",
+                "Amélioration des performances de l'outil",
+                "Intégration d'outils pour la qualité de code",
+                "Technologies utilisées : PHP7, Symfony5, MySQL, ReactJS, Agile"
+            ]
+        },
+        {
+            "name": "Scoplan",
+            "position": "Développeur PHP/Symfony",
+            "url": "https://www.scoplan.com/",
+            "startDate": "2021-09",
+            "endDate": "2021-12",
+            "summary": "Scoplan est le logiciel de nouvelle génération pour les constructeurs, maîtres d'oeuvre et promoteurs.",
+            "highlights": [
+                "Migration progressive Symfony 2 vers Symfony 4 au sein d'une équipe de freelance.",
+                "Technologies utilisées : PHP7, Symfony2 et Symfony4, MySQL"
+            ]
+        },
+        {
+            "name": "DSO Expertise Comptable",
+            "position": "Développeur PHP/Symfony",
+            "url": "https://www.dso.fr",
+            "startDate": "2020-07",
+            "endDate": "2021-07",
+            "summary": "Développement sur un outil de gestion interne type intranet.",
+            "highlights": [
+                "Connexion avec outil comptable SQL Server",
+                "Intégration/création de composants javascript (Vue.js, Stimulus, vanilla js) avec communication client/serveur",
+                "Technologies utilisées : PHP, Symfony, PostgreSQL, Vue.js"
+            ]
+        },
+        {
+            "name": "Nice-Matin",
+            "position": "Développeur PHP/Symfony",
+            "url": "https://www.nicematin.com/",
+            "startDate": "2020-01",
+            "endDate": "2020-07",
+            "highlights": [
+                "Renfort du pole technique, création/amélioration de certaines fonctionnalités sur les sites publics et abonnés, mise en place d’automatisation.",
+                "Développements sur le site nicematin.com entre autres l’ajout de modules publicitaires, refonte de la homepage.",
+                "Développement sur l’espace abonnés NM+ entre autres création de modules React pour l’affichage d’articles, d’un service de vote via API Rest.",
+                "Mise en place de la CI/CD sur Github Action.",
+                "Technologies utilisées : PHP, Symfony, MySQL, React JS"
+            ]
+        },
+        {
+            "name": "Wenity",
+            "position": "Co-fondateur & CTO",
+            "url": "https://wenity.fr/",
+            "startDate": "2013-11",
+            "endDate": "2019-09",
+            "summary": "Wenity est une plateforme de gestion et d’animation de communautés en mode SaaS, le tout en marque blanche pour ses clients. Wenity comprend tous les outils qu’une communauté ou une association a besoin, gestion des membres, des cotisations (avec paiement en ligne), de la partie événementiel et bien d’autres mais aussi un espace membre et un site vitrine personnalisable.",
+            "highlights": [
+                "Développement de la plateforme technique, PHP/Symfony avec Twig pour le moteur de template. Du javascript (ES6) pour le côté front et l’amélioration de l’UX/UI",
+                "Mise en place de l’infra sur AWS",
+                "Intégration d’outils de paiement comme Stripe. D’outils externes d’envoi d’emails (Mailjet), d’envoi de SMS (AllMySMS). D’outils de recherche avancée en utilisant Algolia (pour l’annuaire des membres)",
+                "Mise en place d’un système de worker en lien avec un système de queue (AWS SQS) permettant d’effectuer des tâches lourdes ou des tâches asynchrones (envoi d’email, envoi de SMS, génération de PDF …)",
+                "Mise en place d’outils de CI (Bitbucket Pipelines reposant sur Docker)",
+                "Gestion du produit (relations clients, relations partenaires…) et d’une équipe allant jusqu’à 4 développeurs et 2 UX/UI"
+            ]
+        },
+        {
+            "name": "AMISCO SUP Prozone",
+            "position": "Apprenti",
+            "startDate": "2013-11",
+            "endDate": "2014-09",
+            "highlights": [
+                "Apprentissage du rôle de responsable fonctionnel dans le suivi de projet imagerie et multimédia",
+                "Apprentissage de l’existant technique (Algorithmes, traitement d’images, développement vidéo/multimédia)",
+                "Apprentissage de l’existant métier (Clients, Méthodologie AGILE, Delivery d’étapes)",
+                "Expertise technique en vue de la récolte des besoins, définition du cahier des charges, suivi des développements, définition des plans de tests et validation de projets",
+                "Adaptation de l’ensemble des algorithmes de traitement d’image du monde footballistique vers le Hockey sur Glace (Adaptations mathématiques, des algorithmes de Bouthier, …)",
+                "Implémentation du modèle de données prédictif",
+                "Instanciation des algorithmes en temps réel embarqués (Application mobile)"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Polytech Nice Sophia",
+            "url": "https://polytech.univ-cotedazur.fr/",
+            "area": "Applied Mathematics & IT",
+            "studyType": "Engineering",
+            "startDate": "2009",
+            "endDate": "2014"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Web Development",
+            "level": "Master",
+            "keywords": [
+                "PHP",
+                "Symfony",
+                "MySQL",
+                "PostgreSQL"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "French",
+            "fluency": "Native"
+        },
+        {
+            "language": "English",
+            "fluency": "Full professional proficiency"
+        }
+    ],
+    "interests": [
+        {
+            "name": "IT",
+            "keywords": [
+                "Open source",
+                "Home Automation"
+            ]
+        },
+        {
+            "name": "Scuba diving",
+            "keywords": [
+                "PADI Open Water"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "name": "David Bouquet",
+            "reference": "Quentin est quelqu'un de passionné et de rigoureux. C'est grâce à lui que nous avons pu construire l'intégralité de nos plateformes techniques utilisées par des dizaines de milliers de personnes aujourd'hui."
+        }
+    ],
+    "meta": {
+        "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+        "version": "v1.0.0",
+        "lastModified": "2017-12-24T15:53:00"
     }
-  ],
-  "education": [
-    {
-      "institution": "Polytech Nice Sophia",
-      "url": "https://polytech.univ-cotedazur.fr/",
-      "area": "Applied Mathematics & IT",
-      "studyType": "Engineering",
-      "startDate": "2009",
-      "endDate": "2014"
-    }
-  ],
-  "skills": [
-    {
-      "name": "Web Development",
-      "level": "Master",
-      "keywords": [
-        "PHP",
-        "Symfony",
-        "MySQL",
-        "PostgreSQL"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "French",
-      "fluency": "Native"
-    },
-    {
-      "language": "English",
-      "fluency": "Full professional proficiency"
-    }
-  ],
-  "interests": [
-    {
-      "name": "IT",
-      "keywords": [
-        "Open source",
-        "Home Automation"
-      ]
-    },
-    {
-      "name": "Scuba diving",
-      "keywords": [
-        "PADI Open Water"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "David Bouquet",
-      "reference": "Quentin est quelqu'un de passionné et de rigoureux. C'est grâce à lui que nous avons pu construire l'intégralité de nos plateformes techniques utilisées par des dizaines de milliers de personnes aujourd'hui."
-    }
-  ],
-  "meta": {
-    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
-    "version": "v1.0.0",
-    "lastModified": "2017-12-24T15:53:00"
-  }
 }

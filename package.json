@@ -1,22 +1,22 @@
 {
-  "name": "resume",
-  "version": "1.0.0",
-  "description": "Quentin Dequippe's resume in JSONResume format",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/qdequippe/resume.git"
-  },
-  "keywords": [
-    "resume",
-    "jsonresume",
-    "developer"
-  ],
-  "author": "quentin@dequippe.tech",
-  "homepage": "https://github.com/qdequippe/resume#readme",
-  "devDependencies": {
-    "@qdequippe/jsonresume-theme-paper": "^0.1.2",
-    "jsonresume-theme-paper": "^0.5.0",
-    "jsonresume-theme-standard-resume": "^2.0.0",
-    "resume-cli": "^3.0.7"
-  }
+    "name": "resume",
+    "version": "1.0.0",
+    "description": "Quentin Dequippe's resume in JSONResume format",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/qdequippe/resume.git"
+    },
+    "keywords": [
+        "resume",
+        "jsonresume",
+        "developer"
+    ],
+    "author": "quentin@dequippe.tech",
+    "homepage": "https://github.com/qdequippe/resume#readme",
+    "devDependencies": {
+        "@qdequippe/jsonresume-theme-paper": "^0.1.2",
+        "jsonresume-theme-paper": "^0.5.0",
+        "jsonresume-theme-standard-resume": "^2.0.0",
+        "resume-cli": "^3.0.7"
+    }
 }

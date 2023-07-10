@@ -26,7 +26,7 @@ jobs:
               run: npx resume export build/quentin_dequippe_resume.pdf --format pdf --theme @qdequippe/jsonresume-theme-paper
 
             - name: Upload artifact
-              uses: actions/upload-pages-artifact@v1
+              uses: actions/upload-pages-artifact@v2
               with:
                 path: ./build
 

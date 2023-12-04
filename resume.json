@@ -158,6 +158,12 @@
             "endDate": "2014"
         }
     ],
+    "certificates": [{
+        "name": "Symfony 6 Certified Developer (Expert)",
+        "date": "2023-12-04",
+        "issuer": "Symfony",
+        "url": "https://connect.symfony.com/profile/qdequippe"
+    }],
     "skills": [
         {
             "name": "Web Development",

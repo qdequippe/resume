@@ -20,10 +20,13 @@ jobs:
               run: npm install
 
             - name: Build resume HTML for Github Pages
-              run: npx resume export build/index.html --format html --theme jsonresume-theme-relaxed
+              run: npx resume export build/index.html --resume resume.en.json --format html --theme jsonresume-theme-relaxed
 
-            - name: Build resume PDF for Github Pages
-              run: npx resume export build/quentin_dequippe_resume.pdf --format pdf --theme jsonresume-theme-relaxed
+            - name: Build resume (fr) PDF for Github Pages
+              run: npx resume export build/quentin_dequippe_resume.pdf --resume resume.fr.json --format pdf --theme jsonresume-theme-relaxed
+
+            - name: Build resume (en) PDF for Github Pages
+              run: npx resume export build/quentin_dequippe_resume.en.pdf --resume resume.en.json --format pdf --theme jsonresume-theme-relaxed
 
             - name: Upload artifact
               uses: actions/upload-pages-artifact@v2

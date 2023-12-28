@@ -6,7 +6,7 @@
         "email": "quentin@dequippe.tech",
         "phone": "(+33) 6 20 30 16 68",
         "url": "https://dequippe.tech",
-        "summary": "Développeur web freelance PHP/Symfony. Créateur de Jobbsy passionné par l'Open Source",
+        "summary": "Développeur web freelance PHP/Symfony. Créateur de Jobbsy et passionné par l'Open Source",
         "location": {
             "countryCode": "FR"
         },
@@ -36,8 +36,10 @@
     "work": [
         {
             "name": "Tiime",
+            "company": "Tiime",
             "position": "Développeur PHP/Symfony - Tiime Expert",
             "url": "https://tiime.fr/",
+            "website": "https://tiime.fr/",
             "startDate": "2022-12",
             "summary": "Tiime est ensemble d'outils de dernière génération allant de la pré-compta jusqu’à la liasse pour des experts-comptables à la pointe.",
             "highlights": [
@@ -49,8 +51,10 @@
         },
         {
             "name": "Silae",
+            "company": "Silae",
             "position": "Lead Développeur PHP/Symfony",
             "url": "https://www.silae.fr/",
+            "website": "https://www.silae.fr/",
             "startDate": "2022-06",
             "endDate": "2022-12",
             "summary": "Silae propose des solutions pour simplifier la gestion de la paie, des RH et pour dématérialiser les documents.",
@@ -64,8 +68,10 @@
         },
         {
             "name": "Egerie",
+            "company": "Egerie",
             "position": "Développeur PHP/Symfony",
             "url": "https://egerie.eu",
+            "website": "https://egerie.eu",
             "startDate": "2022-03",
             "endDate": "2022-06",
             "summary": "EGERIE est l’éditeur leader du pilotage des risques cyber en Europe.",
@@ -79,8 +85,10 @@
         },
         {
             "name": "Scoplan",
+            "company": "Scoplan",
             "position": "Développeur PHP/Symfony",
             "url": "https://www.scoplan.com/",
+            "website": "https://www.scoplan.com/",
             "startDate": "2021-09",
             "endDate": "2021-12",
             "summary": "Scoplan est le logiciel de nouvelle génération pour les constructeurs, maîtres d'oeuvre et promoteurs.",
@@ -91,8 +99,10 @@
         },
         {
             "name": "DSO Expertise Comptable",
+            "company": "DSO Expertise Comptable",
             "position": "Développeur PHP/Symfony",
             "url": "https://www.dso.fr",
+            "website": "https://www.dso.fr",
             "startDate": "2020-07",
             "endDate": "2021-07",
             "summary": "Développement sur un outil de gestion interne type intranet.",
@@ -104,8 +114,10 @@
         },
         {
             "name": "Nice-Matin",
+            "company": "Nice-Matin",
             "position": "Développeur PHP/Symfony",
             "url": "https://www.nicematin.com/",
+            "website": "https://www.nicematin.com/",
             "startDate": "2020-01",
             "endDate": "2020-07",
             "highlights": [
@@ -118,8 +130,8 @@
         },
         {
             "name": "Wenity",
+            "company": "Wenity",
             "position": "Co-fondateur & CTO",
-            "url": "https://wenity.fr/",
             "startDate": "2013-11",
             "endDate": "2019-09",
             "summary": "Wenity est une plateforme de gestion et d’animation de communautés en mode SaaS, le tout en marque blanche pour ses clients. Wenity comprend tous les outils qu’une communauté ou une association a besoin, gestion des membres, des cotisations (avec paiement en ligne), de la partie événementiel et bien d’autres mais aussi un espace membre et un site vitrine personnalisable.",
@@ -134,6 +146,7 @@
         },
         {
             "name": "AMISCO SUP Prozone",
+            "company": "AMISCO SUP Prozone",
             "position": "Apprenti",
             "startDate": "2013-11",
             "endDate": "2014-09",
@@ -152,8 +165,8 @@
         {
             "institution": "Polytech Nice Sophia",
             "url": "https://polytech.univ-cotedazur.fr/",
-            "area": "Mathématiques Appliquées et Modélisation",
-            "studyType": "Ingénierie",
+            "area": "Ingénierie - Mathématiques Appliquées et Modélisation",
+            "studyType": "Ingénieur - Master",
             "startDate": "2009",
             "endDate": "2014"
         }
@@ -190,6 +203,7 @@
         {
             "name": "IT",
             "keywords": [
+                "IT",
                 "Open source",
                 "Home Automation"
             ]
@@ -209,7 +223,7 @@
     ],
     "meta": {
         "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
-        "version": "v1.1.0",
+        "version": "v1.1.1",
         "lastModified": "2017-12-24T15:53:00",
         "x-lang": "fr"
     }

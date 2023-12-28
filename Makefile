@@ -1,8 +1,8 @@
 serve:
-	npx resume serve --theme jsonresume-theme-relaxed
+	npx resume serve --resume resume.$(lang).json --theme jsonresume-theme-relaxed
 
 export-html:
-	npx resume export build/index.html --format html --theme jsonresume-theme-relaxed
+	npx resume export build/index.html --resume resume.$(lang).json --format html --theme jsonresume-theme-relaxed
 
 export-pdf:
-	npx resume export build/resume.pdf --format pdf --theme jsonresume-theme-relaxed
+	npx resume export build/resume.pdf --resume resume.$(lang).json --format pdf --theme jsonresume-theme-relaxed

@@ -12,11 +12,6 @@
         },
         "profiles": [
             {
-                "network": "Twitter",
-                "username": "qdequippe",
-                "url": "https://twitter.com/qdequippe"
-            },
-            {
                 "network": "Linkedin",
                 "username": "qdequippe",
                 "url": "https://www.linkedin.com/in/qdequippe"
@@ -30,7 +25,12 @@
                 "network": "Stackoverflow",
                 "username": "qdequippe",
                 "url": "https://stackoverflow.com/users/10353962/qdequippe"
-            }
+            },
+            {
+                "network": "X",
+                "username": "qdequippe",
+                "url": "https://twitter.com/qdequippe"
+            },
         ]
     },
     "work": [

@@ -29,7 +29,7 @@ jobs:
               run: npx resume export build/quentin_dequippe_resume.en.pdf --resume resume.en.json --format pdf --theme jsonresume-theme-relaxed
 
             - name: Upload artifact
-              uses: actions/upload-pages-artifact@v3
+              uses: actions/upload-pages-artifact@v4
               with:
                 path: ./build
 

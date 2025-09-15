@@ -25,11 +25,6 @@
                 "network": "Stackoverflow",
                 "username": "qdequippe",
                 "url": "https://stackoverflow.com/users/10353962/qdequippe"
-            },
-            {
-                "network": "X",
-                "username": "qdequippe",
-                "url": "https://twitter.com/qdequippe"
             }
         ]
     },
@@ -37,16 +32,16 @@
         {
             "name": "Tiime",
             "company": "Tiime",
-            "position": "Développeur PHP/Symfony - Tiime Expert",
+            "position": "Développeur PHP/Symfony",
             "url": "https://tiime.fr/",
             "website": "https://tiime.fr/",
             "startDate": "2022-12",
             "summary": "Tiime est ensemble d'outils de dernière génération allant de la pré-compta jusqu’à la liasse pour des experts-comptables à la pointe.",
             "highlights": [
-                "Renfort de l'équipe technique sur le logiciel Tiime Expert",
+                "Renfort de l'équipe technique",
                 "Développements de fonctionnalités avec des forts volumes de données",
-                "Communication avec APIs externes comme Teledec",
-                "Technologies utilisées : PHP8, Symfony5, PostgreSQL"
+                "Communication avec APIs externes",
+                "Technologies utilisées : PHP, Symfony, PostgreSQL"
             ]
         },
         {

@@ -2,7 +2,7 @@
     "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
     "basics": {
         "name": "Quentin Dequippe",
-        "label": "Freelance Symfony Consultant",
+        "label": "Web consultant & technical lead",
         "email": "quentin@dequippe.tech",
         "phone": "(+33) 6 20 30 16 68",
         "url": "https://dequippe.tech",
